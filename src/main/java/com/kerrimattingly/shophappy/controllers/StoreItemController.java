@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * Created by kerrimattingly on 7/9/17.
  */
 @Controller
-public class ItemController {
+public class StoreItemController {
 
     @RequestMapping(value="")
     @ResponseBody
