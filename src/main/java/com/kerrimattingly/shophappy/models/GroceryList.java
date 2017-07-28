@@ -21,7 +21,7 @@ public class GroceryList {
     //@Size(min=3, max=25)
     private String name;
 
-    //@ManyToMany: many groceryLists can have many storeItems and vice versa
+    //@ManyToMany: many groceryLists can have many storeItem and vice versa
     private List<StoreItem> storeItems;
 
     public void addStoreItem(StoreItem storeItem) {

@@ -28,13 +28,13 @@ public class StoreItem {
     //@NotNull
     private double price;
 
-    //there can be many storeItems for one category: ManyToOne
+    //there can be many storeItem for one category: ManyToOne
     private Category category;
 
-    //there can be many storeItems in many groceryLists: ManyToMany
+    //there can be many storeItem in many groceryLists: ManyToMany
     private List<GroceryList> groceryLists;
 
-    //there can be many storeItems in many stores: ManyToMany
+    //there can be many storeItem in many stores: ManyToMany
     private List<Store> stores;
 
     public StoreItem(String name, String description, double price, Category category) {

@@ -17,7 +17,7 @@ public class Store {
     //@Size(min=3, max=25)
     private String name;
 
-    //@ManyToMany: many stores can have many storeItems and vice versa
+    //@ManyToMany: many stores can have many storeItem and vice versa
     private List<StoreItem> storeItems;
 
     public void addStoreItem(StoreItem storeItem) {

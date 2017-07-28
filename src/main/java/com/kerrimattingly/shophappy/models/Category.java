@@ -22,7 +22,7 @@ public class Category {
     //@Size(min=3, max=15)
     private String name;
 
-    //@OneToMany each one category will have many storeItems; each storeItem can only have one category
+    //@OneToMany each one category will have many storeItem; each storeItem can only have one category
     //@JoinColumn(name = "category_id")
     private List<StoreItem> storeItems = new ArrayList<>();
 
